@@ -1,0 +1,35 @@
+// David Chan (N00668317@students.ncc.edu)
+// CSC 217
+// Project 2: "Data Validation"
+// Due 12/03/09 11:59 pm
+// Analysis.txt
+
+Describe what, if anything, you did to ensure that your code is running properly.
+1. It was important to check for any null pointers before doing operations on the structures. check if files were correctly open. Tested the executable with the provided files and other files. Maximum of 511 characters per line check to prevent any buffer overflow
+
+Discuss your code with a non-programmer. Convince this person that your code works properly.
+2. In laymans term,  here's a summary of what the program does:
+a. Checks how many arguments provided
+b. Read each line in file1, create the corresponding node and adds it to the file1 collection
+c. Read each line in file2 and finds if it is in the collection. If not, it adds the node in the second collection (of nodes not in file1)
+d. Then it displays the nodes of the second collection, after having sorted them.
+
+What was the most difficult task you faced in completing this project?
+3. You can say it was swapping two nodes in the node collection when sorting the elements
+
+What advice would you give to students who have to do this project next year?
+4. Be careful when handling collections
+
+
+
+Workcited. 
+
+(end of the webpage)
+1. http://mrbook.org/tutorials/make/ 
+
+(pseudocode for the handling the sorting algrothim) 
+2. http://en.wikipedia.org/wiki/Insertion_sort
+
+(free memory allocated)
+3. http://en.wikipedia.org/wiki/C_dynamic_memory_allocation
+
